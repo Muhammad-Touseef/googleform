@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    border: 1px solid  rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    margin-top: 7%;
+    left: 28%;   
+    padding-left: 2%;
+    padding-right: 20%;
+    padding-bottom: 7%;
+}
+.form-container{
+    width: 100%;
+}
+.header p{
+    font-size: 26px;
+    font-family: 'Google Sans',arial,sans-serif;
+    margin: 10px 0 23px 11px;
+}
+#logo {
+    height: 37px;
+    padding: 10px;
+    padding-top: 45px;
+    left: 10%;
+}
+
+.account-logo {
+    position: absolute;
+    right: 1%; 
+    font-size: 25px;
+    top: 25%;
+    padding-right: 10%;
+    height: 60px;
+}
+
+.account-logo figcaption {
+    text-align: center;
+    font-size: 18px;
+    color: #202124;
+    font-weight: 5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+   font-size: 25px;
+   font-weight: 5;
+   position: absolute;
+   top: 8%;
+   margin-left: 12px;
+   line-height: 4em;
+   color: #202124;
+   letter-spacing: 0.5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    height: 20px;
+    padding: 8px 8px;
+    font-size: 14px;
+    border: 1px solid #0c0c0c26;
+    border-radius: 5px;  
+    margin: 10px;
+    text-align: left;
+    transition: .2s;
+}
+ 
+a {
+    text-decoration: none;
+    color: #1a73e8;
+    padding: 8px;
+    font-size: 15px;
+    line-height: inherit;
+    font-weight: 700; 
+    position: absolute;
+}
+
+
+#user-name {
+    margin-top: 4%;
+    padding-right: 210px;
+    margin-bottom: 0.5%;
+    text-align: left;
+}
+
+.password {
+    margin-top: 0.5%;
+}
+
+#password, #confirm-password {
+    padding-right: 2px;
+    margin-bottom: 1%;
+}
+
+section a {
+    position: absolute;
+}
+form p {
+    padding: 9px;
+    font-size: 13px;
+}
+
+input:focus {
+   outline:none;  
+}
+
+.footer, .sign, .btn {
+    position: absolute;
+}
+
+.sign {
+    bottom: 15%;
+    width: 15%;
+}
+.email-btn{
+    margin: 10px 0;
+}
+.pass-para{
+    margin: 10px 0;
+    padding-top: 49px;
+}
+
+.btn {
+    left: 45%;
+    bottom: 8%;
+}
+
+.next-btn{
+    background-color: #1a73e8;
+    padding: 9px 28px;
+    border: 1px #1a73e8;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+}
+
+form :focus {
+    border: 2px solid #1a73e8;
+}
+
+/*label {
+    position: absolute;
+    font-size: 14px;
+    line-height: 58px;
+    transition: .5s ease;
+    left: 50px;
+}*/
+
+#first-name:focus + label,
+#last-name:focus + label,
+#password:focus + label,
+#confirm-password:focus + label
+{
+    color: #1a73e8;
+    top: -4px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+#user-name:focus + label {
+    color: #1a73e8;
+    top: 0px;
+    font-size: 11px;
+    padding: 5px;   
+}
+
+.form-name .label{
+    color: #6e6e6e;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+}
+.form-name .labels{
+    color: #6e6e6e;
+    position: absolute;
+    top: 25px;
+    left: 19px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+}
+ 
+.form-name {
+    float: left;
+    position: relative;
+}
+.pass-div{
+    width: 100%;
+}
+.username-text{
+    position: absolute;
+    top: 26px;
+    left: 306px;
+    font-size: 14px;
+}
